@@ -15,6 +15,7 @@ namespace AireSpringTest.Infrastructure
 
         }
 
+        //Stored procedures are created for Employee operations.
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Employee>()
