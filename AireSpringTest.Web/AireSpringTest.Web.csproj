@@ -76,6 +76,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\EmployeesApp.mdf" />
+    <Content Include="App_Data\EmployeesApp_log.ldf">
+      <DependentUpon>EmployeesApp.mdf</DependentUpon>
+    </Content>
     <Content Include="Employees.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -103,7 +107,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
